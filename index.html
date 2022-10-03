@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Chef's Best Steakhouse</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<meta name="author" content="Tia Brimer" />
+<meta name="description" content="Chef's best steakhouse is the best steahouse in the world. ***This is website project, not a real restaurant." />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- css file -->
+<link rel="stylesheet" href="style.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- font awesome cdn link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--nav bar start-->
+    <div class="navbar">
+      <i class="fa-solid fa-utensils"><span> chef's best steakhouse</span></i>
+        <div class="nav-options" id="nav-options">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div id="nav-btn"><i class="fa-solid fa-bars"></i></div>
+      </div>
+<!--nav bar end-->
+<!--home section start-->
+      <div id="home">
+        <div class=home-text>
+            <h1>Chef's Best Steakhouse</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+        </div>
+      </div>
+<!--home section end-->
+<!--about section start-->
+      <div id="about" data-aos="fade-up" data-aos-duration="1500">
+        <div class="about-img">
+            <img src="./imgs/Picture 3.jpg" alt="Steak with asparagus and potatoes"><!--find a way not to hard code this-->
+        </div>
+        <div class="about-text">
+            <h2>Enjoy the best steak of your life</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#menu" class="about-btn">Menu</a> 
+        </div> 
+      </div>
+<!--about section end-->
+<!--menu section start-->
+      <div id="menu" data-aos="fade-up" data-aos-duration="1500">
+        <div class="menu-header">
+          <h2>Menu</h2>
+        </div>
+        <div class="menu-container">
+          <div class="menu-img">
+            <img src="./imgs/menu-pic.jpg" alt="Steak entree">
+          </div>
+        <div class="menu-items">
+          <h3>New York Strip</h3>
+          <p>16 oz USDA Prime, richly flavored, slightly firmer</p>
+          <h3>Ribeye</h3>
+          <p>16 oz USDA Prime, marbled for flavor & deliciously juicy</p>
+          <h3>Filet</h3>
+          <p>an 11 oz cut of tender, corn-fed midwestern beef</p>
+        </div>
+        </div>
+        <div class="menu-container2">
+          <div class="menu-img">
+            <img src="./imgs/Picture 4.jpg" alt="Steak entree">
+          </div>
+        <div class="menu-items2">
+          <h3>Petite Filet & Shrimp</h3>
+          <p>two tender 4 oz medallions with six large shrimp</p>
+          <h3>T-Bone</h3>
+          <p>full flavored 24oz USDa Prime cut</p>
+          <h3>Bone-In New York Strip</h3>
+          <p>USDA Prime, full bodied 19oz bone-in cut, our founder's favorite</p>
+        </div>
+        </div>
+      </div>
+<!--menu section end-->
+<!--gallery section start-->
+      <div id="gallery" data-aos="fade-up" data-aos-duration="1500">
+        <div class="gallery-header">
+            <h2>Gallery</h2>
+        </div>
+        <div class="gallery-pics">
+        <img src="./imgs/Restaurant view.jpg" alt="A view of the restaurant">
+        <img src="./imgs/extra.jpg" alt="Steak slices prepared medium">
+        <img src="./imgs/Picture 1.jpg" alt="A women enjoying some fine wine">
+        <img src="./imgs/Wine.jpg" alt="A steak with grilled mushrooms and onions on top">
+        <img src="./imgs/Picture 3.jpg" alt="Steak and potatoes">
+        <img src="./imgs/Picture 6.jpg" alt="A couple making a toss with wine over their plates of food">
+        </div>
+      </div>
+<!---gallery section end-->
+<!--contact section start-->
+      <div id="contact">
+        <div class="contact-block">
+            <h3>Email</h3>
+            <p>contact@cbsteakhouse.com</p>
+        </div>
+        <div class="contact-block">
+            <h3>Hours</h3>
+            <p>Monday-Friday 11AM - 8PM</p>
+            <p>Saturday-Sunday 12PM - 10PM</p>
+        </div>
+        <div class="contact-block">
+            <h3>Location</h3>
+            <p>1234 Main St</p>
+            <p>Tulsa, OK 74103</p>
+        </div>
+        <div class="contact-block">
+            <h3>Call Us</h3>
+            <p>(555)555-5555</p>
+        </div>
+      </div>
+<!--contact section end-->
+<hr>
+<footer>Copyright @ 2022 by Tia Brimer</footer>
+
+      <!-- javascript file-->
+      <script src="script.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+</html>
