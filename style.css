@@ -294,7 +294,7 @@ footer {
 
     .nav-options.active{
         position: fixed;
-        top: 7%;
+        top: 55px;
         left: 0;
         right: 0;
         display: flex;
@@ -355,7 +355,7 @@ footer {
 
     .nav-options.active{
         position: fixed;
-        top: 9%;
+        top: 50px;
         left: 0;
         right: 0;
         display: flex;
@@ -424,7 +424,7 @@ footer {
 
     .nav-options.active{
         position: fixed;
-        top: 13%;
+        top: 70px;
         left: 0;
         right: 0;
         display: flex;
