@@ -47,7 +47,7 @@ h2{
 }
 .navbar.active{
     background-color: var(--black); 
-    box-shadow: 0 0 4px rgb(0 0 0 / 15%); /*is this necessary*/
+    box-shadow: 0 0 4px rgb(0 0 0 / 15%);
 }
 .nav-options a {
     text-decoration: none;
@@ -294,7 +294,7 @@ footer {
 
     .nav-options.active{
         position: fixed;
-        top: 8%;
+        top: 7%;
         left: 0;
         right: 0;
         display: flex;
@@ -307,7 +307,6 @@ footer {
         padding: 0rem 1.5rem;
     }
     .about-text{
-        /*line-height: 3rem;*/
         text-align: center;
         padding: 0rem 1.5rem;
     }
@@ -329,7 +328,6 @@ footer {
         grid-gap: 2rem;
     }
 }
-
 @media screen and (max-width: 500px){
     html {
         font-size: 75%;
@@ -357,7 +355,7 @@ footer {
 
     .nav-options.active{
         position: fixed;
-        top: 8%;
+        top: 9%;
         left: 0;
         right: 0;
         display: flex;
@@ -370,7 +368,75 @@ footer {
         padding: 0rem 1.5rem;
     }
     .about-text{
-        /*line-height: 3rem;*/
+        text-align: center;
+        padding: 0rem 1.5rem;
+    }
+    .about-text p{
+        line-height: 2rem;
+    }
+    .menu-items{
+        padding-right: 1.5rem
+    }
+    .menu-items2{
+        padding-left: 1.5rem
+    }
+    .gallery-pics{
+        display: grid;
+        grid-template-columns: repeat(1, 20rem);
+        grid-gap: 1.5rem;
+        justify-content: center;
+        padding: 0rem 1.5rem
+    }
+    #contact{
+        display: grid;
+        grid-template-columns: repeat(1, 15rem); 
+        justify-content: center;
+        align-content: center;
+        grid-gap: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+    html {
+        font-size: 75%;
+    }
+    #nav-btn{
+        display: inline-block;
+    }
+    .nav-options{
+        position: fixed;
+        top: -500%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--black);
+        border-top: 2px solid white;
+        text-align: center;
+        
+    }
+    .nav-options a {
+        padding: 1rem;
+        position: block;
+        color: var(--white);
+    }
+
+    .nav-options.active{
+        position: fixed;
+        top: 13%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--black);
+        border-top: 2px solid white;
+        text-align: center;
+    }
+    .home-text{
+        padding: 0rem 1.5rem;
+    }
+    .about-text{
         text-align: center;
         padding: 0rem 1.5rem;
     }
